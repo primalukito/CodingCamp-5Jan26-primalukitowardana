@@ -1,0 +1,9 @@
+/* Custom styles to supplement Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom transition for list items */
+li {
+    transition: all 0.2s ease-in-out;
+}
